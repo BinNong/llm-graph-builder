@@ -4,7 +4,7 @@ import logging
 from modelscope import snapshot_download
 from sentence_transformers import SentenceTransformer
 
-from backend.src.document_sources.youtube import create_youtube_url
+from src.document_sources.youtube import create_youtube_url
 from langchain_community.embeddings.sentence_transformer import SentenceTransformerEmbeddings
 from langchain_google_vertexai import VertexAIEmbeddings
 from langchain_openai import OpenAIEmbeddings
